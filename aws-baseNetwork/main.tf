@@ -17,7 +17,7 @@ module "vpc" {
   tags = {
     Terraform   = "true"
     Environment = "${var.environment}"
-    Owner       = "Adam"
+    Owner       = "chrismatteson"
   }
 }
 
